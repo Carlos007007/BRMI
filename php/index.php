@@ -12,6 +12,7 @@
 		<select name="restorePoint">
 			<option value="" disabled="" selected="">Selecciona un punto de restauración</option>
 			<?php
+				include_once './Connet.php';
 				$ruta=BACKUP_PATH;
 				if(is_dir($ruta)){
 				    if($aux=opendir($ruta)){
