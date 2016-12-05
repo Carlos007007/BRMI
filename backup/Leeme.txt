@@ -1,0 +1,1 @@
+Carpeta donde se almacenan las copias de seguridad
